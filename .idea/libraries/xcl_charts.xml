@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="xcl_charts">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/xcl_charts.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -13,6 +13,7 @@ import android.graphics.Shader;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
+import android.view.animation.LinearInterpolator;
 
 import com.huangssh.chart.util.UtilPhoneParam;
 import com.huangssh.chart.util.UtilUnitConversion;
@@ -34,6 +35,7 @@ import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.List;
 
+import chart.huangssh.com.splinechart.BuildConfig;
 import chart.huangssh.com.splinechart.R;
 
 public class SplineChart03View extends BaseChartView {
@@ -77,7 +79,6 @@ public class SplineChart03View extends BaseChartView {
     Paint paintText = new Paint();
     // 是否第一次进入
     private boolean isFirst = true;
-
 
     public SplineChart03View(Context context) {
         super(context);

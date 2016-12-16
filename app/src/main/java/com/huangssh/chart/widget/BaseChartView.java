@@ -21,11 +21,17 @@
  */
 package com.huangssh.chart.widget;
 
+import android.animation.TimeInterpolator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
+import android.view.animation.LinearInterpolator;
 
 import org.xclcharts.common.DensityUtil;
 import org.xclcharts.view.ChartView;
+
+import chart.huangssh.com.splinechart.BuildConfig;
 
 /**
  * @ClassName DemoView
@@ -34,7 +40,6 @@ import org.xclcharts.view.ChartView;
  */
 public class BaseChartView extends ChartView {
 
-	
 	public BaseChartView(Context context) {
 		super(context);
 		// TODO Auto-generated constructor stub
@@ -75,7 +80,7 @@ public class BaseChartView extends ChartView {
 	@Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {  
         super.onSizeChanged(w, h, oldw, oldh);  
-    
-    }  
+    }
+
 
 }

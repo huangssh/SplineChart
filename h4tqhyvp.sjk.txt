@@ -1,0 +1,118 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   .idea/gradle.xml
+#	deleted:    .idea/libraries/xcl_charts.xml
+#	modified:   .idea/misc.xml
+#	modified:   .idea/modules.xml
+#	new file:   .idea/vcs.xml
+#	modified:   .idea/workspace.xml
+#	new file:   XCLCharts/build.gradle
+#	new file:   XCLCharts/lint.xml
+#	new file:   XCLCharts/src/main/AndroidManifest.xml
+#	new file:   XCLCharts/src/main/java/org/xclcharts/chart/ArcLineData.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/chart/BarChart.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/chart/BarData.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/chart/CustomLineData.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/chart/LineChart.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/chart/LineData.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/chart/LnData.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/chart/PointD.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/chart/SplineChart.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/chart/SplineData.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/common/CurveHelper.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/common/DensityUtil.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/common/DrawHelper.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/common/IFormatterDoubleCallBack.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/common/IFormatterTextCallBack.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/common/MathHelper.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/common/PointHelper.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/common/SysinfoHelper.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/ArcPosition.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/BarPosition.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/ChartArcListener.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/ChartBarListener.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/ChartPointListener.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/PlotArcPosition.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/PlotBarPosition.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/PlotPointPosition.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/PointPosition.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/PositionListener.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/PositionRecord.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/click/RectPosition.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/touch/ChartTouch.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/event/touch/IChartTouch.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/AxesChart.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/EventChart.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/IRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/LnChart.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/RdChart.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/XChart.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/XEnum.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/axis/Axis.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/axis/CategoryAxis.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/axis/CategoryAxisRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/axis/DataAxis.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/axis/DataAxisRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/axis/RoundAxis.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/axis/RoundAxisRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/axis/XYAxis.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/bar/Bar.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/bar/Bar3D.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/bar/FlatBar.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/AnchorDataPoint.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/AnchorRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/DyInfo.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/DyLine.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/DyLineRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/Legend.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/LegendRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/PlotArcLabelInfo.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/PlotAxisTick.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/PlotDataInfo.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/ToolTip.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/info/ToolTipRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/line/DotInfo.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/line/PlotCustomLine.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/line/PlotDot.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/line/PlotDotRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/line/PlotLine.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/AxisTitle.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/AxisTitleRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/Border.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/BorderRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/LabelBrokenLine.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/LabelBrokenLineRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotArea.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotAreaRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotAttrInfo.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotAttrInfoRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotGrid.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotGridRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotLabel.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotLabelRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotLegend.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotLegendRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotQuadrant.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotQuadrantRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotTitle.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PlotTitleRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/Pointer.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/renderer/plot/PointerRender.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/view/ChartView.java
+#	new file:   XCLCharts/src/main/java/org/xclcharts/view/GraphicalView.java
+#	new file:   XCLCharts/src/main/res/values-v11/styles.xml
+#	new file:   XCLCharts/src/main/res/values-v14/styles.xml
+#	new file:   XCLCharts/src/main/res/values/strings.xml
+#	new file:   XCLCharts/src/main/res/values/styles.xml
+#	modified:   app/build.gradle
+#	deleted:    app/libs/xcl_charts.jar
+#	modified:   app/src/main/java/com/huangssh/chart/widget/BaseChartView.java
+#	modified:   app/src/main/java/com/huangssh/chart/widget/SplineChart03View.java
+#	modified:   settings.gradle
+#
+

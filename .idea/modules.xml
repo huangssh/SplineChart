@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SplineChart.iml" filepath="$PROJECT_DIR$/SplineChart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XCLCharts/xCLCharts.iml" filepath="$PROJECT_DIR$/XCLCharts/xCLCharts.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
